@@ -11,7 +11,8 @@ env:
   ###############################################
   DOCKER_IMAGE_NAME: kk17-azure-ttt
   AZURE_WEBAPP_NAME: kk17-ttt-app
-  ################################################
+  NODE_OPTIONS: --openssl-legacy-provider
+  ###############################################
 
 jobs:
   build:
